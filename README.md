@@ -1,6 +1,8 @@
-# ![veld code](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__REPLACE
+# ![veld code](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__inception
 
-This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating REPLACE
+This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating an 
+[INCEpTION](https://github.com/inception-project/inception) instance with an accompanying mariadb 
+service for persistence.
 
 ## requirements
 
@@ -10,22 +12,17 @@ This repo contains [code velds](https://zenodo.org/records/13322913) encapsulati
 
 ## how to use
 
-A code veld may be integrated into a chain veld, or used directly by adapting the configuration 
-within its yaml file and using the template folders provided in this repo. Open the respective veld 
-yaml file for more information.
+This code veld may be integrated into a chain veld, or used directly by adapting the configuration 
+within its yaml file and using the template folders provided in this repo. Open the veld yaml file 
+for more information.
 
-Run a veld with:
-```
-docker compose -f <VELD_NAME>.yaml up
-```
+**[./veld.yaml](./veld.yaml)** 
 
-## contained code velds
-
-**[./veldREPLACE.yaml](./veldREPLACE.yaml)** 
-
-REPLACE
+Launches an inception instance. Inception metadata is stored under
+[./data/inception_app/](./data/inception_app/) and the mariadb content under 
+[./data/inception_db/](./data/inception_db/) .
 
 ```
-docker compose -f veldREPLACE.yaml up
+docker compose -f veld.yaml up
 ```
 
