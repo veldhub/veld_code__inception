@@ -1,6 +1,6 @@
 # ![veld code](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__inception
 
-This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating an 
+This repo contains a [code veld](https://zenodo.org/records/13322913) encapsulating an 
 [INCEpTION](https://github.com/inception-project/inception) instance with an accompanying mariadb 
 service for persistence.
 
